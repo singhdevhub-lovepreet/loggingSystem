@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.singhdevhub_lovepreet</groupId>
-  <artifactId>loggingSystem</artifactId>
+  <artifactId>logging-system</artifactId>
   <version>1.1.0</version>
 
   <name>.</name>
