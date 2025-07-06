@@ -14,6 +14,13 @@ public class Log implements Serializable {
         // Todo: Figure out how to get thread information when user is adding/appending any log and add stackTrace
     }
 
+    public Log(String data, Timestamp timestamp, String stackTrace) {
+        this.data = data;
+        this.stackTrace = stackTrace;
+        this.timestamp = timestamp;
+        // Todo: Figure out how to get thread information when user is adding/appending any log and add stackTrace
+    }
+
     public String getData() {
         return data;
     }
@@ -73,6 +80,8 @@ public class Log implements Serializable {
     }
 
 
-
+    public Log getLog(Log log){
+        return new Log(log.getData(), log.getTimestamp(), log.getStackTrace());
+    }
 
 }
