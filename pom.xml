@@ -3,13 +3,21 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>logger</groupId>
-  <artifactId>.</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <groupId>io.github.singhdevhub_lovepreet</groupId>
+  <artifactId>loggingSystem</artifactId>
+  <version>1.1.0</version>
 
   <name>.</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>Central Repository github</name>
+      <url>https://maven.pkg.github.com/singhdevhub-lovepreet/loggingSystem/</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
