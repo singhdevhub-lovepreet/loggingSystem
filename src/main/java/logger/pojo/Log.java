@@ -14,6 +14,16 @@ public class Log implements Serializable {
         // Todo: Figure out how to get thread information when user is adding/appending any log and add stackTrace
     }
 
+    public Log(){
+
+    }
+
+    public Log(String data, Severity severity) {
+        this.data = data;
+        this.severity = severity;
+        // Todo: Figure out how to get thread information when user is adding/appending any log and add stackTrace
+    }
+
     public String getData() {
         return data;
     }
