@@ -37,7 +37,7 @@ public class Logger {
 
     public void addLog(Log log){
         synchronized (Logger.class){
-            Timestamp timestamp = new Timestamp(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC));
+            Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             Thread currentThread = Thread.currentThread();
 
             StackTraceElement[] elements = currentThread.getStackTrace();

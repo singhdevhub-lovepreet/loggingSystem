@@ -1,6 +1,8 @@
 package logger.enums;
 
-public enum Severity {
+import java.io.Serializable;
+
+public enum Severity implements Serializable {
     LOW("low"),
     HIGH("high"),
     WARN("warn");

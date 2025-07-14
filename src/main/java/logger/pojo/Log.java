@@ -7,6 +7,8 @@ import java.sql.Timestamp;
 
 public class Log implements Serializable {
 
+    final static long serialVersionUID = 1234L;
+
     private String data;
 
     public Log(String data) {
